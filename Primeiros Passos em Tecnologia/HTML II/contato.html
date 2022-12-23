@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML II</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="horarios.html">Horários</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://img2.freepng.es/20180713/rzc/kisspng-hospital-logo-clinic-health-care-physician-5b48c1801f8383.2739660215314947841291.jpg" alt="logo da clínica" width="50px">
+            </div>
+    
+            <div class="content">
+                <h1>Contato</h1>
+                <p>Telefone: 4002-8922</p>
+                <p>Endereço: Fortaleza, Ceará, Brasil</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254788.957257114!2d-38.659702067322904!3d-3.7933031450642303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c3f464c783f%3A0x4661c60a0c6b37ca!2sFortaleza%20-%20CE!5e0!3m2!1spt-BR!2sbr!4v1671804626347!5m2!1spt-BR!2sbr" width="300" height="300" style="border:0;" allowfullscreen="" 0loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <form action="/pagina-processa-dados-do-form" method="post">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="usuario_nome" />
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="usuario_email" />
+                    </div>
+                    <div>
+                        <label for="nome">Assunto:</label>
+                        <input type="text" id="nome" name="usuario_nome" />
+                    </div>
+                    <div>
+                        <label for="msg">Mensagem:</label>
+                        <textarea id="msg" name="usuario_msg"></textarea>
+                    </div>
+                
+                    <div class="button">
+                        <button type="submit">Enviar sua mensagem</button>
+                    </div>
+                    <div class="button">
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
+            </div>
+            
+    
+            <div class="footer">
+                <p>Clínica Não</p>
+                <p>Nem sempre a melhor opção!</p>
+                <p>Fortaleza, Ceará, Brazil</p>
+                <p>Telefone: 4002-8922</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
